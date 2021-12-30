@@ -1,1 +1,1 @@
-https://Werywer.github.io/rsschool-cv/cv
+https://Werywer.github.io/rsschool-cv/
