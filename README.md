@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Werywer.github.io/rsschool-cv/
