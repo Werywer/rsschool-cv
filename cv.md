@@ -43,5 +43,6 @@ Psychological education(bachelor)
 - English (A2)
 
 ```
+ P.S. Attention(!) It's not a CV file, it's cv.md file. Please click on link - 'rsschool-cv', then You see my CV. Thank you ^_^
 
 ```
