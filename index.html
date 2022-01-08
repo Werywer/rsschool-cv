@@ -5,55 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Profile</title>
-    <link rel="stylesheet" href="../rsschool-cv/style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="center">
       <header class="head">
+        <h1>My CV</h1>
         <nav>
-          <h1>My CV</h1>
-          <ul>
-            <li><img src="../rsschool-cv/photo/1111.jpg" alt="photo" /></li>
-            <li>
-              <p class="name"><b>Name:</b> Erika Mickeviciute</p>
+          <ul class="nav-item">
+            <li class="nav-list">
+              <a class="nav-link" href="#Contacts"> Contacts </a>
             </li>
-            <li>
-              <p><b>Phone:</b> +420774186724</p>
+            <li class="nav-list">
+              <a class="nav-link" href="#Information"> Information </a>
             </li>
-            <li>
-              <p><b>City:</b> Prague</p>
+            <li class="nav-list">
+              <a class="nav-link" href="#Skills"> Skills </a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="#Code example"> Code example </a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="#Project"> Project </a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="#Job experience"> Job experience </a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="#Education">Education </a>
+            </li>
+            <li class="nav-list">
+              <a class="nav-link" href="#Language"> Language </a>
             </li>
           </ul>
         </nav>
+        <ul>
+          <li><img src="photo/1111.jpg" alt="photo" /></li>
+          <li>
+            <a name="Contacts"
+              ><h2><b>Contacts: </b></h2></a
+            >
+          </li>
+          <li>
+            <p class="name"><b>Name:</b> Erika Mickeviciute</p>
+          </li>
+
+          <li>
+            <p><b>Phone:</b> +420774186724</p>
+          </li>
+          <li>
+            <p><b>City:</b> Prague</p>
+          </li>
+        </ul>
       </header>
       <main>
-        <h2>Information about me</h2>
-        <p><b>Description:</b></p>
-        <p>
-          I'm motivated, adaptable,responsible person seeking a position in an
-          IT position which will utilise the technical skills in develop. I have
-          experience in technical customer support in the field of finance.
-        </p>
+        <div>
+          <a name="Information"
+            ><h2><b>Information about me: </b></h2></a
+          >
+          <p><b>Description:</b></p>
+          <p>
+            I'm motivated, adaptable,responsible person seeking a position in an
+            IT position which will utilise the technical skills in develop. I
+            have experience in technical customer support in the field of
+            finance.
+          </p>
+        </div>
 
-        <h2>Skills:</h2>
+        <div>
+          <a name="Skills"
+            ><h2><b> Skills: </b></h2></a
+          >
 
-        <ul>
-          <li>Git</li>
-          <li>Github</li>
-          <li>Html/css/js</li>
-          <li>Some experience with: figma, slack, jira</li>
-        </ul>
-
-        <h2><b>Job experience:</b></h2>
-        <p>Technical support 2 years (2017-2019)</p>
-        <h2>Education</h2>
-        <p>Psychological education(bachelor): 2011-2015</p>
-        <h2><b>Language</b></h2>
-        <ul>
-          <li>Russian - Native</li>
-          <li>English - B1</li>
-          <li>Czech - B1</li>
-        </ul>
+          <ul>
+            <li>Git</li>
+            <li>Github</li>
+            <li>Html/css/js</li>
+            <li>Some experience with: figma, slack, jira</li>
+          </ul>
+        </div>
+        <div>
+          <a name="Code example"
+            ><h2><b> Code example:</b></h2></a
+          >
+          <pre class="code">
+            <code> javascript let page = document.querySelector(".page"); let
+            themeButton = document.querySelector(".theme-button");
+            themeButton.onclick = function () {
+            page.classList.toggle("light-theme");
+            page.classList.toggle("dark-theme"); }; let message =
+            document.querySelector(".subscription-message");
+            console.log(message.textContent); 
+            </code>
+          </pre>
+        </div>
+        <div>
+          <a name="Project"
+            ><h2><b>Project:</b></h2></a
+          >
+          <a class="project-cv" href="https://werywer.github.io/rsschool-cv/"
+            >Click-click...
+          </a>
+        </div>
+        <div>
+          <a name="Job experience"
+            ><h2><b>Job experience:</b></h2></a
+          >
+          <p>Technical support 2 years (2017-2019)</p>
+        </div>
+        <div>
+          <a name="Education"
+            ><h2><b> Education</b></h2></a
+          >
+          <p>Psychological education(bachelor): 2011-2015</p>
+        </div>
+        <div>
+          <a name="Language"
+            ><h2><b>Language</b></h2></a
+          >
+          <ul>
+            <li>Russian - Native</li>
+            <li>English - B1</li>
+            <li>Czech - B1</li>
+          </ul>
+        </div>
       </main>
       <footer>
         <div class="end">

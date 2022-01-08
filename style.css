@@ -8,6 +8,19 @@ body {
   font-family: "Times New Roman", Times, serif;
   font-size: 18px;
 }
+.nav-item {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  justify-content: space-around;
+  list-style-type: none;
+  background: rgba(233, 193, 193, 0.2);
+  padding: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
 img {
   margin: 0;
   padding: 0;
@@ -30,7 +43,13 @@ ul {
   border-left: none;
   border-right: none;
 }
-
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
 main {
   border: 1px solid;
   border-left: none;
@@ -45,4 +64,13 @@ main {
 }
 address {
   font-style: normal;
+}
+.code {
+  background: rgba(80, 185, 31, 0.3);
+  padding-top: 30px;
+}
+.project-cv {
+  text-decoration: none;
+  color: rgb(192, 9, 9);
+  cursor: pointer;
 }
